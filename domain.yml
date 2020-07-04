@@ -1,0 +1,151 @@
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - needhelp
+  - ask_admissions
+  - ask_admissions_code
+  - ask_admissions_target
+  - ask_college
+  - ask_admissions_way1
+  - ask_admissions_way2
+  - compare_way1_way2
+  - ask_admissions_way3
+  - ask_admissions_way4
+  - ask_have_admissions_by_school_profile
+  - ask_have_hold_an_exam
+  - ask_admissions_online
+  - ask_form_regis
+  - ask_major
+  - ask_main_link
+  - ask_fanpage
+  - ask_admissions_link
+  - ask_student_support
+  - ask_xet_hoc_ba
+  - tuyen_sinh_2020
+  - ask_time
+  - ask_phone_number
+  - university_address
+  - ask_have_domitory
+  - ask_study_time
+  - ask_dh_chinh_quy
+  - ask_fee
+  - time_to_study
+  - ask_giang_duong
+  - ask_library
+  - ask_volunteer
+  - ask_clubs
+  - ask_how_to_apply
+  - ask_uniform
+
+responses:
+  utter_greet:
+  - text: "Chào bạn"
+
+  utter_goodbye:
+  - text: "Tạm biệt bạn, chúc bạn có những quyết định sáng suốt cho tương lai của mình"
+
+  utter_introduce_botself:
+  - text: "Mình là bot tự động hỗ trợ tư vấn tuyển sinh trường Đại học Nha Trang"
+
+  utter_admissions_code:
+  - text: "Mã tuyển sinh là TSN"
+
+  utter_admissions_target:
+  - text: "Chỉ tiêu tuyển sinh năm nay là 3500 chỉ tiêu đại học"
+
+  utter_college:
+  - text: "Năm nay không có tuyển sinh cao đẳng\nBạn có thể tham khảo các ngành khác có điểm thấp hơn"
+
+  utter_admissions_way2:
+  - text: "Đăng ký xét tuyển sau khi có giấy chứng nhận tốt nghiệp tạm thời 2020"
+
+  utter_compare_way1_way2:
+  - text: "Hai cách này khác nhau, bạn có thể tham khảo hình dưới:"
+    image: "https://scontent.fdad1-1.fna.fbcdn.net/v/t1.0-9/p720x720/97160736_4057813544236790_4243059970527985664_o.jpg?_nc_cat=100&_nc_sid=110474&_nc_ohc=7J7mwGdyiZoAX-fn3f3&_nc_ht=scontent.fdad1-1.fna&_nc_tp=6&oh=93f54294bcb9114baa6971b49664edba&oe=5EF1E0BA"
+
+  utter_admissions_by_school_profile:
+  - text: "Rất tiêc nhưng trường Đh Nha Trang không xét tuyển học bạ"
+
+  utter_hold_an_exam:
+  - text: "Rất tiếc là Đh Nha Trang không tổ chức thi riêng, Đh Nha Trang chỉ xét tuyển bằng 4 cách"
+
+  utter_admissions_online:
+  - text: "Đh Nha Trang có cho phép đăng ký online"
+
+  utter_dormitory:
+  - text: "Đại học Nha Trang có tất cả 8 khu ký túc xá, nam khu riêng và nữ khu riêng\nĐủ chỗ cho tối đa gần 4000 sinh viên\nMiễn phí 100% ký túc xá cho sinh viên nhập học các ngành truyền thống của trường:\nCông nghệ chế biến thuỷ sản\nQuản lý thuỷ sản\nNuôi trồng thuỷ sản\nKhai thác thuỷ sản\nKhoa học hàng hải\nCông nghệ sau thu hoạch"
+
+  utter_student_support:
+  - text: "ĐHNT có chính sách ở miễn phí ký túc xá cho thí sinh trúng tuyển và nhập học các ngành sau:\nNgành Công nghệ chế biến thủy sản\nNgành Bệnh học thủy sản\nNgành Nuôi trồng thủy sản\nNgành Khai thác thủy sản\nNgành Khoa học hàng hải\nCông nghệ sau thu hoạch\nNgoài ra, Nhà trường còn có chính sách ở miễn phí KTX cho thí sinh học ở trường THPT ở tỉnh Ninh Thuận\nCó chính sách học bổng cho thủ khoa đầu vào cấp trường và ở tất cả các ngành\nHỗ trợ học bổng cho SV có hoàn cảnh khó khăn"
+
+  utter_xet_hoc_ba:
+  - text: "ĐHNT không xét tuyển bằng học bạ mà thay vào đó sẽ sử dụng điểm xét tốt nghiệp làm phương thức tuyển sinh mới. Điểm xét tốt nghiệp có trên Giấy chứng nhận tốt nghiệp"
+
+  utter_remember_time:
+  - text: "Dưới đây là các mốc thời gian quan trong mà các thí sinh cần chú ý"
+    image: "https://scontent-hkt1-1.xx.fbcdn.net/v/t1.0-9/s960x960/101988935_1201403226865725_4574578659527051535_o.jpg?_nc_cat=111&_nc_sid=110474&_nc_ohc=J5GM0e9yeUMAX-XFQJC&_nc_ht=scontent-hkt1-1.xx&_nc_tp=7&oh=266252a7b02ec4df315978bb4867a32c&oe=5F086E35"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_address:
+  - text: "Trường Đh Nha Trang có địa chỉ là 02 Nguyễn Đình Chiểu, Tp.Nha Trang"
+
+  utter_study_time:
+  - text: "Trường thường có 2 buổi học chính, 5 tiết sáng và 5 tiết chiều, ngoài ra còn có một buổi học tối 3 tiết cho các môn quốc phòng, chào cờ,...\nBuổi sáng sẽ bắt đầu lúc 7h sáng và kết thúc lúc 11h30\nBuổi chiều sẽ bắt đầu lúc 1h và kết thúc lúc 17h30\nBuổi tối sẽ bắt đầu lúc 6h30 và kết thúc lúc 9h00"
+
+  utter_dh_chinh_quy:
+  - text: "Đại học Nha Trang là trường đào tạo hệ chính quy"
+
+  utter_fee:
+  - text: "ĐH Nha Trang là trường đại học công lập, SV đã được hỗ trợ một phần học phí. ĐHNT là một trong những trường có học phí thấp nhất cả nước\nCụ thể: khoảng 4-5 triệu đồng/học kỳ."
+
+  utter_time_to_study:
+  - text: "Theo kế hoạch học trong 4 năm, tuy nhiên, Nhà trường tổ chức đào tạo theo hình thức tín chỉ nên SV có thể rút ngắn thời gian học bằng cách đăng ký học vượt; hoặc tùy thuộc vào điều kiện hoàn cảnh bản thân mà có thể kéo dài thời gian học hơn 4 năm nhưng không quá 8 năm."
+
+  utter_places:
+  - text: "Trường có tất cả 8 khu giảng đường, từ giảng đường G1 - giảng đường G8, riêng khu G8 là khu giảng đường tin học, nơi cho các bạn thực hành tin học máy tính\nNgoài ra trường còn có các khu tự học thuận tiện cho việc học nhóm, không gian thoáng mát yên tĩnh"
+
+  utter_library:
+  - text: "Trường có một thư viện luôn mở cửa trong thời gian hành chính để tất cả các bạn có thể đến học cũng như mượn sách\nVới lượng sách khổng lồ từ nhiều nguồn Đh Nha Trang có đủ sách về đủ thể loại lĩnh vực vô cùng phong phú"
+
+  utter_volunteer:
+  - text: "Trường đại học Nha Trang có rất nhiều đội tình nguyện khác nhau của các khoa khác nhau và rất phong phú về cách hoạt động"
+
+  utter_clubs:
+  - text: "Trường Đh Nha Trang có rất nhiều câu lạc bộ lớn nhỏ về nhiều lĩnh vực khác nhau như thể thao, âm nhạc, kỹ năng mềm,... rất thích hợp để kết bạn và rèn luyện kỹ năng cho mình"
+
+  utter_uniform:
+  - text: "Trường ko quy định về việc trang phục nhưng các bạn khi đến trường vẫn phải ăn mặc lịch sự và kín đáo, không được quá phản cảm"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+  - act_admision_hotline_web
+  - to_roi
+  - more_infor_way1
+  - way1_front
+  - way1_back
+  - more_infor_way2
+  - way2_front
+  - way2_back
+  - more_infor_way3
+  - way3_front
+  - way3_back
+  - more_infor_way4
+  - way4_front
+  - way4_center
+  - way4_back
+  - link_fanpage
+  - main_link
+  - admission_link
+  - more_informajor_2020mark
+  - link_register_online
+  - link_form_regis
+  - act_admission_ways
+  - act_contact_hotline
+  - basic_infor_about_nhatrang_university
+  - how_to_apply
